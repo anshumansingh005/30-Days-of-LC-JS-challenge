@@ -15,6 +15,10 @@ var compose = function (functions) {
 };
 
 /**
- * const fn = compose([x => x + 1, x => 2 * x])
- * fn(4) // 9
+Complexity Analysis
+Let N be the number of functions in the array.
+
+Time complexity: O(N). Each of the N functions in the array is called exactly once, assuming that each function has a constant time complexity.
+
+Space complexity: O(1). The iterative method uses a single variable input to store the intermediate results, not requiring any additional space.
  */
